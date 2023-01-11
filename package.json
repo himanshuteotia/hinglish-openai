@@ -1,0 +1,15 @@
+{
+  "name": "hinglish-openai",
+  "version": "1.0.1",
+  "description": "This package provides an easy-to-use function for generating text in English by using OpenAI's GPT-3 model. It can take a message in any language as input (especially in hinglish), translate it to English and generates a reply. It uses the text-davinci-003 model for the best result with parameters like temperature, max_tokens and penalties for better control over generated text. It also uses a cleanString function to remove any unwanted spaces and new lines in the generated text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["openai","hinglish"],
+  "author": "Himanshu Teotia",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
+}
